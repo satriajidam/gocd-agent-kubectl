@@ -37,7 +37,6 @@ RUN \
   apk upgrade --no-cache && \
   apk add --update --no-cache \
     build-base \
-    deps \
     make \
     gcc \
     musl-dev \
